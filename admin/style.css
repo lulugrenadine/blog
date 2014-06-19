@@ -1,0 +1,167 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	}
+	
+body {
+	font-family: Arial, Sans serif;
+	font-size: 12px;
+}
+
+h1{
+	font-size: 30px;
+	color: #375D81;
+	padding: 5px 0;
+	height: 46px;
+	text-align: center;
+	line-height: 40px;
+	font-family: 'Lobster', cursive;
+	
+	}
+h2 {
+	padding: 8px 0;
+	color: grey;
+	margin: 0px;
+	text-align: center;
+}
+p {
+	padding: 5px 0;
+	margin: 20px;
+	text-align: center;
+}
+table {
+	border-collapse: collapse;
+}
+
+hr {
+	border-top: dotted 1px grey;
+	margin-bottom: 0px;
+}
+	
+input, textarea, select {
+	padding: 2px;
+}
+input.arrondi {
+	border-radius:4px;
+ }
+button {
+	border-radius:4px;
+	height: 24px;
+	line-height: 24px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 0 5px;
+	transition-property: background;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	background: white;	
+}
+button:hover {
+	background: #82D2D3;
+	cursor: pointer;
+}
+
+form.login {
+	width: 450px;
+	margin: auto;
+	background: #375D81;
+	color: white;
+	border-radius: 10px;
+}
+form.add_article {
+	width: 600px;
+	border: solid 1px red;
+}
+
+/*form.login fieldset {
+	border: 0;
+}	
+form.login fieldset.actions {
+	text-align: right;	
+}
+form.login fieldset.fields div.row {
+	padding: 10px;
+}
+form.login fieldset.fields div.row label {
+	display: inline-block;
+	width: 200px;
+}*/
+form fieldset {
+	border: 0;
+}	
+form fieldset.actions {
+	text-align: right;	
+}
+form fieldset.fields div.row {
+	padding: 10px;
+}
+form fieldset.fields div.row label {
+	display: inline-block;
+	width: 200px;
+}
+header{
+	background: rgba(70, 188, 180, 0.4);
+	height : 80px;
+}
+
+/* Menu en ligne*/
+header nav {
+	background: #D3F4F0;
+	min-width: 600px;
+}
+header nav ul li.deconnexion {
+	float: right;
+	border: none;
+}
+header nav ul {
+	list-style: none;
+}
+header nav ul li {
+	display: block;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	border-right: solid 2px #4CBBBC;
+	background: black;
+}
+
+table.articles td ,  table.articles th {
+	border: solid 1px gray;
+}
+
+/*.home {
+	color: #333;
+	font-size: 24px;
+	transition: all 1s ease 0.1s;
+}
+.home:hover {
+	color: red!important;
+	font-size: 18px;
+	transition: all 1s ease 0.1s;
+	background: #333;
+	border-radius: 10px
+}
+va avec cette ligne dans header<li class="home"><a href="index.php">Accueil</a></li>*/
+
+header nav ul li a {
+	display: inline-block;
+	text-decoration: none;
+	transition-property: background;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	font-size: 14px;
+	padding: 0 5px;
+	color: white;
+	}
+header nav ul li a:hover {
+	
+	text-decoration: none;
+	background: #82D2D3;
+	color: white;
+	font-size: 14px;
+	/* padding: 0 5px; */
+	text-shadow: 1px 1px 2px #000;
+	}
