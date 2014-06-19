@@ -43,9 +43,11 @@ hr {
 	
 input, textarea, select {
 	padding: 2px;
+	border-radius: 1px;
+	
 }
 input.arrondi {
-	border-radius:4px;
+	border: 4px;
  }
 button {
 	border-radius:4px;
@@ -76,7 +78,7 @@ form.add_article {
 	border: solid 1px red;
 }
 
-/*form.login fieldset {
+form.login fieldset {
 	border: 0;
 }	
 form.login fieldset.actions {
@@ -88,7 +90,10 @@ form.login fieldset.fields div.row {
 form.login fieldset.fields div.row label {
 	display: inline-block;
 	width: 200px;
-}*/
+}
+
+
+/*
 form fieldset {
 	border: 0;
 }	
@@ -105,7 +110,9 @@ form fieldset.fields div.row label {
 header{
 	background: rgba(70, 188, 180, 0.4);
 	height : 80px;
-}
+}*/
+
+
 
 /* Menu en ligne*/
 header nav {

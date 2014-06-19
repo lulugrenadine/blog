@@ -36,7 +36,12 @@
 				<td>' . $row['id_article'] . '</td>
 				<td>' . $row['title'] . '</td>
 				<td>' . $row['date'] . '</td>
-				<td></td>
+				<td>
+					<a 
+					href="edit_article.php?id_article=' .$row['id_article'] .'">Modifier</a>
+					<a
+					href="gestion_articles.php?action=delete_article&id_article=' . $row['id_article'] . '">Supprimer</a>
+				</td>
 			</tr>
 		';
 		}
