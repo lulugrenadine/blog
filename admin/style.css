@@ -43,7 +43,7 @@ hr {
 	
 input, textarea, select {
 	padding: 2px;
-	border-radius: 1px;
+	border: 1px black;
 	
 }
 input.arrondi {
@@ -73,10 +73,6 @@ form.login {
 	color: white;
 	border-radius: 10px;
 }
-form.add_article {
-	width: 600px;
-	border: solid 1px red;
-}
 
 form.login fieldset {
 	border: 0;
@@ -92,17 +88,17 @@ form.login fieldset.fields div.row label {
 	width: 200px;
 }
 
-
-/*
 form fieldset {
-	border: 0;
+	border: 2px;
 }	
 form fieldset.actions {
 	text-align: right;	
 }
+/*
 form fieldset.fields div.row {
 	padding: 10px;
 }
+
 form fieldset.fields div.row label {
 	display: inline-block;
 	width: 200px;
@@ -111,10 +107,9 @@ header{
 	background: rgba(70, 188, 180, 0.4);
 	height : 80px;
 
-
-
-
 /* Menu en ligne*/
+
+	
 header{
 	background: rgba(70, 188, 180, 0.4);
 	height : 80px;
@@ -139,7 +134,7 @@ header nav ul li {
 	background: black;
 }
 
-table.articles td ,  table.articles th {
+table.articles td , table.articles th {
 	border: solid 1px gray;
 }
 
